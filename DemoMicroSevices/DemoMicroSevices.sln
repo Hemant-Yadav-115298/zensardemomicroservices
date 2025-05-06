@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatelogService", "CatelogService\CatelogService.csproj", "{18162EE6-ECE1-4205-904C-D3AD1616B47F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogService", "CatelogService\CatalogService.csproj", "{18162EE6-ECE1-4205-904C-D3AD1616B47F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{2E52D31B-3B96-4773-8ADA-853AF7A4244C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway", "APIGetway\ApiGateway.csproj", "{FCEEEDAF-7C85-410B-9853-568711681262}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2E52D31B-3B96-4773-8ADA-853AF7A4244C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E52D31B-3B96-4773-8ADA-853AF7A4244C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E52D31B-3B96-4773-8ADA-853AF7A4244C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCEEEDAF-7C85-410B-9853-568711681262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCEEEDAF-7C85-410B-9853-568711681262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCEEEDAF-7C85-410B-9853-568711681262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCEEEDAF-7C85-410B-9853-568711681262}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

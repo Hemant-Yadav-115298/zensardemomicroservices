@@ -6651,9 +6651,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\CatelogService.csproj",
-      "projectName": "CatelogService",
-      "projectPath": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\CatelogService.csproj",
+      "projectUniqueName": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\CatalogService.csproj",
+      "projectName": "CatalogService",
+      "projectPath": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\CatalogService.csproj",
       "packagesPath": "C:\\Users\\HY115298\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\obj\\",
       "projectStyle": "PackageReference",

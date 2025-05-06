@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XNbwiPwHPOU=",
+  "dgSpecHash": "KL6cxqhHxWg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\CatelogService.csproj",
+  "projectFilePath": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\CatelogService\\CatalogService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HY115298\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\HY115298\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
