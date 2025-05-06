@@ -1,0 +1,36 @@
+services:
+  apigateway:
+    container_name: "apigateway"
+    image: ${DOCKER_REGISTRY-}apigateway
+    build:
+      context: .
+      dockerfile: APIGetway/Dockerfile
+    ports:
+      - "7000:8080"
+
+  orderservice:
+    container_name: "orderservice"
+    image: ${DOCKER_REGISTRY-}orderservice
+    build:
+      context: .
+      dockerfile: OrderService/Dockerfile
+    ports:
+      - "8000:8080"
+    depends_on:
+      - "rabbitmq"
+
+  catalogservice:
+    container_name: "catalogservice"
+    image: ${DOCKER_REGISTRY-}catalogservice
+    build:
+      context: .
+      dockerfile: CatelogService/Dockerfile
+    ports:
+      - "9000:8080"
+
+  rabbitmq:
+    container_name: "rabbitmq"
+    image: "rabbitmq:3-management"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
