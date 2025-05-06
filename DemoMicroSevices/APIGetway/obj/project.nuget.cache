@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GlteM5Y4AEA=",
+  "dgSpecHash": "2fT0EnNjtEc=",
   "success": true,
   "projectFilePath": "C:\\Users\\HY115298\\Documents\\Codes\\CSharpDotNet\\new training april\\microservice\\DemoMicroSevices\\APIGetway\\ApiGateway.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\HY115298\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\HY115298\\.nuget\\packages\\microsoft.extensions.diagnosticadapter\\3.1.32\\microsoft.extensions.diagnosticadapter.3.1.32.nupkg.sha512",
     "C:\\Users\\HY115298\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\HY115298\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512",
     "C:\\Users\\HY115298\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\HY115298\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\HY115298\\.nuget\\packages\\ocelot\\24.0.0\\ocelot.24.0.0.nupkg.sha512",
