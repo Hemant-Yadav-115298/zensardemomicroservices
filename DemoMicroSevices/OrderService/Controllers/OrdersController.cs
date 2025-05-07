@@ -31,7 +31,7 @@ namespace OrderService.Controllers
         public async Task<Product> GetProductAsync(Guid id)
         {
 
-            var resp = await _client.GetAsync($"http://apigetway:/8080/products/{id}");
+            var resp = await _client.GetAsync($"http://apigateway:/8080/products/{id}");
             resp.EnsureSuccessStatusCode();
             var prod = await resp.Content.ReadFromJsonAsync<Product>();
             return prod!;
