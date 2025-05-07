@@ -4,7 +4,7 @@
     },
     "Routes": [
         {
-            "DownstreamPathTemplet": "/api/productsapi/{id}",
+            "DownstreamPathTemplate": "/api/productsapi/{id}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -13,11 +13,11 @@
                     "Port": 8000
                 }
             ],
-            "UpstreamPathTemplet": "/products/{id}",
+            "UpstreamPathTemplate": "/products/{id}",
             "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
         },
         {
-            "DownstreamPathTemplet": "/api/ordersapi/{id}",
+            "DownstreamPathTemplate": "/api/ordersapi/{id}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -26,11 +26,11 @@
                     "Port": 8000
                 }
             ],
-            "UpstreamPathTemplet": "/orders",
+            "UpstreamPathTemplate": "/orders",
             "UpstreamHttpMethod": [ "GET", "POST" ]
         },
         {
-            "DownstreamPathTemplet": "/api/ordersapi/product/{id}",
+            "DownstreamPathTemplate": "/api/ordersapi/product/{id}",
             "DownstreamScheme": "http",
             "DownstreamHostAndPorts": [
                 {
@@ -39,7 +39,7 @@
                     "Port": 8000
                 }
             ],
-            "UpstreamPathTemplet": "/orders/product/{id}",
+            "UpstreamPathTemplate": "/orders/product/{id}",
             "UpstreamHttpMethod": [ "GET", "POST" ]
         }
     ]
